@@ -1,0 +1,34 @@
+{
+  "name": "react-app-unit-test",
+  "version": "1.0.0",
+  "description": "test unit of the app that build with react,typescript,jest,enzyme and so an",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "keywords": [
+    "unit-test"
+  ],
+  "author": "luckybo",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "@types/enzyme": "^3.9.1",
+    "@types/jest": "^24.0.11",
+    "@types/react": "^16.8.14",
+    "@types/react-dom": "^16.8.4",
+    "babel-jest": "^24.7.1",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.12.1",
+    "jest": "^24.7.1",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "@babel/preset-typescript": "^7.3.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
